@@ -19,12 +19,22 @@ PhanDA's own time slices.
 - `job_thermo.py`: downloads PBDB and PhanDA and writes `results.json`, `boundaries.csv`,
   `bins.csv` and `provenance.json`.
 - `test_thermo.py`: offline tests (`python -m unittest -v test_thermo`).
+- `grade_temperature.py` (added 2026-11-17, before any result): turns `results.json` into the
+  graded prior table and the registered label, mechanically, and checks the job's PhanDA
+  values against a hand reading. Tests: `python -m unittest -v test_grade_temperature`.
+- `PRE-RESULT-NOTE-1.md` (2026-11-17, before any result): the two predictions that depend only
+  on temperature, worked out from public PhanDA. On PhanDA's stage-to-stage changes, 9 of 78
+  boundaries reach 5.2 C and only 2 of them are Big Five events, so the 5.2 C threshold
+  (prediction H6a) already fails at this resolution. Every prediction that involves
+  extinction rates is still blind.
 
 Status: **registered 2026-11-17; job queued.** Results will be posted in `RESULTS.md`
 whatever they show.
 
-Sister project: [extinction-cycle-test](https://github.com/munimtechnologies/extinction-cycle-test)
-(is extinction periodic?).
+Sister projects: [extinction-cycle-test](https://github.com/munimtechnologies/extinction-cycle-test)
+(is extinction periodic?) and
+[diversity-temperature-test](https://github.com/munimtechnologies/diversity-temperature-test)
+(is a warmer Earth richer in life?).
 
 ## Data
 
