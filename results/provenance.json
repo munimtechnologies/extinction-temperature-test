@@ -1,0 +1,91 @@
+{
+ "started_utc": "2026-11-17T20:48:38Z",
+ "pbdb": {
+  "Porifera": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Porifera&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 4956168,
+   "md5": "67d471a8108aa52253e85f38870b4666",
+   "file_mtime_utc": "2026-11-17T18:09:09.969416+00:00"
+  },
+  "Cnidaria": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Cnidaria&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 14404688,
+   "md5": "e8fef801e12579e5b96f24e0c069ce76",
+   "file_mtime_utc": "2026-11-17T18:09:19.385415+00:00"
+  },
+  "Bryozoa": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Bryozoa&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 5221928,
+   "md5": "5935fb2d7b130e12256324004a6921f7",
+   "file_mtime_utc": "2026-11-17T18:09:22.937414+00:00"
+  },
+  "Brachiopoda": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Brachiopoda&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 39472629,
+   "md5": "49cbee1ee2598c06c59d8feb2952fa08",
+   "file_mtime_utc": "2026-11-17T18:09:47.241411+00:00"
+  },
+  "Mollusca": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Mollusca&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 101859601,
+   "md5": "57e31ac79538eaaee061ff8679db7392",
+   "file_mtime_utc": "2026-11-17T18:10:55.713400+00:00"
+  },
+  "Echinodermata": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Echinodermata&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 5459969,
+   "md5": "8879962e3e9de380e9625d7e5237b25d",
+   "file_mtime_utc": "2026-11-17T18:10:59.709400+00:00"
+  },
+  "Trilobita": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Trilobita&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 11445613,
+   "md5": "6a6720a72788bab443b1ec408f8036b8",
+   "file_mtime_utc": "2026-11-17T18:11:07.773398+00:00"
+  },
+  "Graptolithina": {
+   "url": "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Graptolithina&envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+   "status": "cached",
+   "bytes": 1822113,
+   "md5": "f6779f2f6715008bef97c0dfb231b564",
+   "file_mtime_utc": "2026-11-17T18:11:08.989398+00:00"
+  }
+ },
+ "phanda": {
+  "url": "https://raw.githubusercontent.com/EJJudd/PhanDA/main/5_Outputs/PhanDA_GMSTandCO2_percentiles.csv",
+  "status": "downloaded",
+  "bytes": 18513,
+  "md5": "3a0894b0084091bf7691b4640e8a839d",
+  "file_mtime_utc": "2026-11-17T20:48:38.964135+00:00",
+  "n_slices": 85,
+  "missing_expected": [],
+  "unexpected": []
+ },
+ "groups": [
+  "Porifera",
+  "Cnidaria",
+  "Bryozoa",
+  "Brachiopoda",
+  "Mollusca",
+  "Echinodermata",
+  "Trilobita",
+  "Graptolithina"
+ ],
+ "query_common": "envtype=marine&idreso=genus&idqual=genus_certain&pres=regular&show=class",
+ "n_perm": 20000,
+ "seed": 20261117,
+ "parse": {
+  "rows": 814853,
+  "assigned": 641280,
+  "no_genus": 0,
+  "no_bin": 173573
+ },
+ "finished_utc": "2026-11-17T20:48:43Z"
+}

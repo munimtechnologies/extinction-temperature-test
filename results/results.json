@@ -1,0 +1,220 @@
+{
+ "prereg": "PREREG.md (extinction-temperature-test v0.1.0)",
+ "status": "ok",
+ "analysis": {
+  "n": 78,
+  "boundaries": [
+   "Tremadocian",
+   "Floian",
+   "Dapingian",
+   "Darriwilian",
+   "Sandbian",
+   "Katian",
+   "Hirnantian",
+   "Aeronian/Rhuddanian",
+   "Telychian",
+   "Sheinwoodian",
+   "Homerian",
+   "Gorstian",
+   "Ludfordian",
+   "Pridoli",
+   "Pragian/Lochkovian",
+   "Emsian",
+   "Eifelian",
+   "Givetian",
+   "Frasnian",
+   "Famennian",
+   "Tournaisian",
+   "Visean",
+   "Serpukhovian",
+   "Bashkirian",
+   "Moscovian",
+   "Kasimovian",
+   "Gzhelian",
+   "Asselian",
+   "Sakmarian",
+   "Artinskian",
+   "Kungurian",
+   "Roadian",
+   "Capitanian/Wordian",
+   "Wuchiapingian",
+   "Changhsingian",
+   "Induan",
+   "Anisian/Olenekian",
+   "Ladinian",
+   "Carnian",
+   "Norian",
+   "Rhaetian",
+   "Sinemurian/Hettangian",
+   "Pliensbachian",
+   "Toarcian",
+   "Aalenian",
+   "Bajocian",
+   "Bathonian",
+   "Callovian",
+   "Oxfordian",
+   "Kimmeridgian",
+   "Tithonian",
+   "Berriasian",
+   "Valanginian",
+   "Hauterivian",
+   "Barremian",
+   "Aptian",
+   "Albian",
+   "Cenomanian",
+   "Turonian",
+   "Coniacian",
+   "Santonian",
+   "Campanian",
+   "Maastrichtian",
+   "Selandian/Danian",
+   "Thanetian",
+   "Ypresian",
+   "Lutetian",
+   "Bartonian",
+   "Priabonian",
+   "Rupelian",
+   "Chattian",
+   "Aquitanian",
+   "Burdigalian",
+   "Langhian",
+   "Serravallian",
+   "Tortonian",
+   "Messinian",
+   "Zanclean"
+  ],
+  "sanity": {
+   "top10_mu3t": [
+    "Changhsingian",
+    "Tremadocian",
+    "Rhaetian",
+    "Maastrichtian",
+    "Famennian",
+    "Frasnian",
+    "Hirnantian",
+    "Visean",
+    "Darriwilian",
+    "Induan"
+   ],
+   "big_five_events_in_top10": 5,
+   "n_ok": true,
+   "passed": true
+  },
+  "H1_all": {
+   "n": 78,
+   "rho": 0.2065150039833584,
+   "p_perm": 0.033248337583120846,
+   "p_shift": 0.04054054054054054,
+   "n_shifts": 73
+  },
+  "H2_without_big_five": {
+   "n": 72,
+   "rho": 0.14258151649623768,
+   "p_perm": 0.11394430278486076,
+   "p_shift": 0.11764705882352941,
+   "n_shifts": 67
+  },
+  "H3_duration_partial": {
+   "n": 78,
+   "rho": 0.12615419619215112,
+   "p_perm": 0.135943202839858
+  },
+  "H3_duration_partial_without_big_five": {
+   "n": 72,
+   "rho": 0.020469060502866038,
+   "p_perm": 0.4291285435728214
+  },
+  "H4_uncertainty": {
+   "n_draws": 2000,
+   "rho_p05": 0.007041060205617173,
+   "rho_median": 0.15690638475448604,
+   "rho_p95": 0.32120790601803256,
+   "frac_rho_pos": 0.958
+  },
+  "H5_warming": {
+   "n": 34,
+   "rho": 0.20794499618029028,
+   "p_perm": 0.12064396780160992
+  },
+  "H5_cooling": {
+   "n": 44,
+   "rho": 0.18167723749119102,
+   "p_perm": 0.11539423028848557
+  },
+  "H5_warming_minus_cooling": {
+   "z": 0.11472619127210919,
+   "p_one_sided": 0.454331076681453
+  },
+  "H6_threshold": {
+   "boundaries_at_or_above": [
+    "Katian",
+    "Gorstian",
+    "Tournaisian",
+    "Changhsingian",
+    "Anisian/Olenekian",
+    "Aptian",
+    "Albian",
+    "Thanetian",
+    "Ypresian"
+   ],
+   "big_five_events_above": 2,
+   "other_boundaries_above": [
+    "Gorstian",
+    "Tournaisian",
+    "Anisian/Olenekian",
+    "Aptian",
+    "Albian",
+    "Thanetian",
+    "Ypresian"
+   ],
+   "big_five_abs_dT": {
+    "Katian": 7.045417921931001,
+    "Hirnantian": 1.3244047105196977,
+    "Frasnian": 4.1482429012901,
+    "Changhsingian": 10.479519223557297,
+    "Rhaetian": 2.7379797535799,
+    "Maastrichtian": 4.339269920798699
+   },
+   "max_abs_dT_other": 8.9255988989542
+  },
+  "H6_big_five_auc": {
+   "auc": 0.7314814814814815,
+   "p_perm": 0.03134843257837108
+  },
+  "H7_level": {
+   "n": 78,
+   "rho": 0.15535097813578824,
+   "p_perm": 0.08734563271836408,
+   "p_shift": 0.17567567567567569,
+   "n_shifts": 73
+  },
+  "H7_change_given_level": {
+   "n": 78,
+   "rho": 0.22009427889501554,
+   "p_perm": 0.029698515074246288
+  },
+  "gap_filler": {
+   "H1_all": {
+    "n": 78,
+    "rho": 0.23742230821747115,
+    "p_perm": 0.018749062546872655,
+    "p_shift": 0.02702702702702703,
+    "n_shifts": 73
+   },
+   "H2_without_big_five": {
+    "n": 72,
+    "rho": 0.16790603822362477,
+    "p_perm": 0.07864606769661517,
+    "p_shift": 0.07352941176470588,
+    "n_shifts": 67
+   }
+  },
+  "decision": "REPLICATED_ONLY_WITH_MASS_EXTINCTIONS",
+  "qualifiers": {
+   "autocorrelation_robust_H1": true,
+   "duration_robust_H1": false,
+   "uncertainty_robust_H1": true
+  }
+ },
+ "decision": "REPLICATED_ONLY_WITH_MASS_EXTINCTIONS"
+}

@@ -14,6 +14,18 @@ PhanSST proxy database with climate-model priors. This project asks whether Song
 result holds on PhanDA, using genus extinction rates from the Paleobiology Database on
 PhanDA's own time slices.
 
+## Result (2026-11-17): REPLICATED_ONLY_WITH_MASS_EXTINCTIONS
+
+See **[RESULTS.md](RESULTS.md)**. Across 78 stage boundaries, the size of the temperature
+change predicts the extinction rate (Spearman rho = 0.21, p = 0.033; robust to autocorrelation
+and to PhanDA's uncertainty). Without the six Big Five boundaries it does not reach
+significance (rho = 0.14, p = 0.11), and warming is no worse than cooling. On PhanDA, 9
+boundaries see a change of 5.2 C or more and only 2 of them are Big Five events, so the
+5.2 C threshold does not single out mass extinctions. The grader was published before the
+result existed; `test_graded_results.py` re-runs it on the published output.
+
+## Files
+
 - `PREREG.md`: hypotheses, tests, decision rule and honest priors, fixed before the job ran.
 - `thermo.py`: binning, three-timer and gap-filler extinction rates, and the statistics.
 - `job_thermo.py`: downloads PBDB and PhanDA and writes `results.json`, `boundaries.csv`,
@@ -23,18 +35,16 @@ PhanDA's own time slices.
   graded prior table and the registered label, mechanically, and checks the job's PhanDA
   values against a hand reading. Tests: `python -m unittest -v test_grade_temperature`.
 - `PRE-RESULT-NOTE-1.md` (2026-11-17, before any result): the two predictions that depend only
-  on temperature, worked out from public PhanDA. On PhanDA's stage-to-stage changes, 9 of 78
-  boundaries reach 5.2 C and only 2 of them are Big Five events, so the 5.2 C threshold
-  (prediction H6a) already fails at this resolution. Every prediction that involves
-  extinction rates is still blind.
-
-Status: **registered 2026-11-17; job queued.** Results will be posted in `RESULTS.md`
-whatever they show.
+  on temperature, worked out from public PhanDA.
+- `RESULTS.md` and `results/` (2026-11-17): the graded result and the job's output files.
+- `test_graded_results.py`: runs the grader on `results/` and checks it gives the label and
+  row grades in RESULTS.md (`python -m unittest -v test_graded_results`).
 
 Sister projects: [extinction-cycle-test](https://github.com/munimtechnologies/extinction-cycle-test)
 (is extinction periodic?) and
 [diversity-temperature-test](https://github.com/munimtechnologies/diversity-temperature-test)
-(is a warmer Earth richer in life?).
+(is a warmer Earth richer in life?). All five tests are read together in
+[SYNTHESIS.md](https://github.com/munimtechnologies/extinction-cycle-test/blob/main/SYNTHESIS.md).
 
 ## Data
 
